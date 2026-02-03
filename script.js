@@ -12,3 +12,7 @@ document.querySelector('#menu-icon').onclick = ()=>{
       navbar.classList.toggle('active');
       search.classList.remove('active'); //search eka hide karanna
 }
+window.onscroll = ()=>{
+      navbar.classList.remove('active'); //scroll karoth navbar eka hide karanna
+      search.classList.remove('active'); //scroll karoth search eka hide karanna
+}
